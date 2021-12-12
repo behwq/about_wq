@@ -35,11 +35,18 @@
         android:textSize="@dimen/text_size"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/emailemail"
         android:layout_marginTop="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="email us" />
+
+    <Button
+        android:id="@+id/termBtn"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Term Of Use " />
 
     <TextView
         android:id="@+id/copy"

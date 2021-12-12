@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.About">
         <activity
-            android:name=".email"
-            android:exported="false" />
+            android:name=".emailc"
+            android:exported="false"
+            android:parentActivityName=".about" />
         <activity
             android:name=".update"
             android:parentActivityName=".MainActivity" />
