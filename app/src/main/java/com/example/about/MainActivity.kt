@@ -4,12 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val about: Button = findViewById(R.id.aboutBtn)
+        val about: TextView = findViewById(R.id.aboutBtn)
         val my: Button = findViewById(R.id.myd)
         val update: Button = findViewById(R.id.up)
         val actionBar = supportActionBar
