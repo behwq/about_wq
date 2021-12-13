@@ -27,7 +27,7 @@ class about : AppCompatActivity() {
 
             startActivity(Intent.createChooser(emailIntent, "Send Email"))
 
-            if (emailIntent.resolveActivity(getPackageManager()) != null) {
+            if (emailIntent.resolveActivity(packageManager) != null) {
                 startActivity(emailIntent)
             } else {
                 Toast.makeText(this, "There is no application that support this action",
