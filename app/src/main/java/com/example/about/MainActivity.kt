@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val about: TextView = findViewById(R.id.aboutBtn)
-        val my: Button = findViewById(R.id.myd)
-        val update: Button = findViewById(R.id.up)
+        val my: TextView = findViewById(R.id.myd)
+        val update: TextView = findViewById(R.id.up)
         val actionBar = supportActionBar
 
         actionBar!!.title="Setting"
